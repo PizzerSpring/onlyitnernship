@@ -1,6 +1,10 @@
-*{
+* {
     margin: 0;
     padding: 0;
+}
+
+body {
+    position: relative;
 }
 
 .image {
@@ -8,4 +12,35 @@
     width: 100vw;
     height: 100vh;
     object-fit: cover;
+
+}
+
+.btn {
+    position: absolute;
+    top: 300px;
+    left: 500px;
+    background-color: #6ABF4B;
+    border: none;
+    color: white;
+    text-align: center;
+    display: inline-block;
+    width: 41px;
+    height: 41px;
+    padding: 10px;
+    font-size: 16px;
+    opacity: 0.8;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.active {
+    display: inline-block;
+    width: 111px;
+    height: 38px;
+    box-sizing: border-box;
+    text-align: center;
+    color: #fff;
+    background-color: #6ABF4B;
+    border-radius: 40px;
+    border: none;
 }
