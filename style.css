@@ -1,3 +1,11 @@
+@font-face {
+    font-family: 'Arial Regular';
+    src: url('fonts/ArialMT.eot');
+    src: url('fonts/ArialMT.eot?#iefix') format('embedded-opentype'),
+    url('fonts/ArialMT.woff') format('woff'),
+    url('fonts/ArialMT.ttf') format('truetype');
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -16,6 +24,9 @@ body {
 }
 
 .btn {
+    font-family: 'Arial Regular', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
     position: absolute;
     top: 300px;
     left: 500px;
@@ -24,11 +35,10 @@ body {
     color: white;
     text-align: center;
     display: inline-block;
-    width: 41px;
-    height: 41px;
+    width: 40px;
+    height: 40px;
     padding: 10px;
-    font-size: 16px;
-    opacity: 0.8;
+    opacity: 0.7;
     border-radius: 50%;
     cursor: pointer;
 }
