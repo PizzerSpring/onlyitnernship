@@ -1,13 +1,13 @@
 const btn1 = document.querySelector(".btn1");
 const btns = document.querySelectorAll('.btn');
 
-const arr = ['Улица', 'Мост', 'Завод', 'Школа', 'Сад', 'Парк', 'Магазин'];
+const arr = ['Улица', 'Мост', 'Завод', 'Школа', 'Сад', 'Парк', 'Магазин', 'Въезд', 'Здание', 'Река'];
 
 
-btn1.addEventListener('click', (e) => {
+/*btn1.addEventListener('click', (e) => {
     btn1.classList.toggle('active');
     e.target.textContent === '+' ? e.target.textContent = '- Стадион' : e.target.textContent = '+';
-})
+})*/
 
 console.log(btns);
 
