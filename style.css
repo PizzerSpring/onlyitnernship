@@ -30,7 +30,7 @@ body {
     position: absolute;
     top: 300px;
     left: 500px;
-    background-color: #6ABF4B;
+    background-color:#3877EE;
     border: none;
     color: white;
     text-align: center;
@@ -43,7 +43,7 @@ body {
     cursor: pointer;
 }
 
-.btn1 {
+.btn3 {
     position: absolute;
     top: 20%;
     left: 30%;
@@ -54,7 +54,7 @@ body {
     top: 15%;
     left: 70%;
 }
-.btn3 {
+.btn1 {
     position: absolute;
     top: 35%;
     left: 60%;
@@ -109,7 +109,6 @@ body {
     box-sizing: border-box;
     text-align: center;
     color: #fff;
-    background-color: #6ABF4B;
     border-radius: 40px;
     border: none;
 }
