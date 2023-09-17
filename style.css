@@ -20,7 +20,6 @@ body {
     width: 100vw;
     height: 100vh;
     object-fit: cover;
-
 }
 
 .btn {
@@ -76,4 +75,8 @@ body {
     border: none;
     margin: -2px auto;
     transform: rotate(90deg);
+}
+
+.text, .sign {
+    display: block;
 }
