@@ -16,7 +16,7 @@ for(let i = 0; i < btns.length; i = i + 3) {
 for(let i = 0; i < btns.length; i++ ) {
     btns[i].addEventListener('click', (e) => {
         btns[i].classList.toggle('active');
-        plus.classList.toggle('plus-active');
-        text.textContent === '' ?  text.textContent = `${city[i]}` : text.textContent = '';
+        btns[i].lastElementChild.firstElementChild.classList.toggle('plus-active');
+        btns[i].firstElementChild.textContent === '' ?  btns[i].firstElementChild.textContent = `${city[i]}` : btns[i].firstElementChild.textContent = '';
     })
 }
