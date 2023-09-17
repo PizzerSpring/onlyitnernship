@@ -33,11 +33,10 @@ body {
     background-color:#3877EE;
     border: none;
     color: white;
-    text-align: center;
-    display: inline-block;
+    display: block;
     width: 40px;
     height: 40px;
-    padding: 10px;
+    padding: 15px 11px;
     opacity: 0.7;
     border-radius: 50%;
     cursor: pointer;
@@ -103,12 +102,37 @@ body {
 
 
 .active {
-    display: inline-block;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row-reverse;
     width: 111px;
     height: 38px;
     box-sizing: border-box;
-    text-align: center;
     color: #fff;
     border-radius: 40px;
     border: none;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.plus-active {
+    display: none;
+}
+
+.minus {
+    width: 10px;
+    height: 2px;
+    background: #fff;
+    border: none;
+    margin: 0 auto;
+}
+
+.plus {
+    width: 10px;
+    height: 2px;
+    background: #fff;
+    border: none;
+    margin: -2px auto;
+    transform: rotate(90deg);
 }
